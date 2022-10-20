@@ -1,0 +1,47 @@
+html,
+body {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container-who{
+  max-width: 1290px;
+  margin: 0 auto;
+}
+.container-header{
+  max-width: 1286px;
+  margin: 0 auto;
+}
+.container-footer{
+  max-width: 1206px;
+  margin: 0 auto;
+}
+.container-text{
+  max-width: 1070px;
+  margin: 0 auto;
+}
+.container-sm {
+  max-width: 1016px;
+  margin: 0 auto;
+}
+
+
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  
+}
+
