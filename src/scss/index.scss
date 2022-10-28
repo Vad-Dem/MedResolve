@@ -140,6 +140,16 @@
 .visible {
     display: block;
 }
+.active-header-menu{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+
+color: #E7DBB5;
+}
 
 // start
 
@@ -430,7 +440,7 @@
         font-size: 50px;
         line-height: 60%;
         color: #ffffff;
-        padding: 50px 54px 56px 54px;
+        padding: 50px 54px 56px 50px;
         background: linear-gradient(180deg, #be9253 0%, #e3cd84 100%);
         border-radius: 50%;
         width: 136px;

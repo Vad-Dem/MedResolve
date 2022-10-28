@@ -14,15 +14,9 @@ export const html = () => {
         })
       )
     )
-    .pipe(webpHtml())
-    .pipe(fileInclude())
-    .pipe(
-      svgInclude({
-        selectors: ".include-svg",
-        root: `${app.path.src.svgInclude}`,
-      })
-    )
-    .pipe(app.plugins.replace(/@img\//g, "img/"))
+    
+    
+    
     .pipe(app.gulp.dest(app.path.build.html))
     .pipe(app.plugins.browsersync.stream());
 };
