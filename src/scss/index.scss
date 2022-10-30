@@ -75,12 +75,12 @@
         text-transform: capitalize;
         color: #e7dbb5;
         cursor: pointer;
-        z-index: 1;
     }
 
     // .header__drop
 
     &__drop {
+        
     }
 
     // .header__droplist
@@ -95,6 +95,7 @@
         box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
         border-radius: 20px;
         padding: 18px 22px 14px 29px;
+        z-index: 12;
     }
 
     // .header__droplist-item
