@@ -79,9 +79,8 @@
 
     // .header__drop
 
-    &__drop {
-        
-    }
+    // &__drop {
+    // }
 
     // .header__droplist
 
@@ -141,15 +140,15 @@
 .visible {
     display: block;
 }
-.active-header-menu{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 18px;
-text-align: center;
+.active-header-menu {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
 
-color: #E7DBB5;
+    color: #e7dbb5;
 }
 
 // start
@@ -171,12 +170,28 @@ color: #E7DBB5;
         justify-content: center;
     }
 
+    // .start__social
+
+    &__social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 148px;
+        margin-top: -20px;
+    }
+
+    // .start__social-item
+
+    &__social-item {
+        margin-bottom: 27px;
+    }
+
     // .start__textbox
 
     &__textbox {
         max-width: 450px;
         width: 100%;
-        margin-left: 285px;
+        margin-left: 164px;
         margin-right: 15px;
     }
 
@@ -259,6 +274,15 @@ color: #E7DBB5;
 .toptext {
     padding: 93px 0px 129px;
     position: relative;
+
+    // .toptext__arrow-link
+
+    &__arrow-link {
+        position: absolute;
+        top: 60px;
+        right: 112px;
+    }
+
     // .toptext__text
 
     &__text {
@@ -741,13 +765,14 @@ color: #E7DBB5;
 
 .footer {
     background-color: #212121;
-    padding: 92px 0px 95px;
+    padding: 92px 0px 90px;
     // .footer__inner
 
     &__inner {
         display: flex;
         align-items: start;
         justify-content: space-between;
+        margin-bottom: 35px;
     }
 
     // .footer__start
@@ -830,6 +855,46 @@ color: #E7DBB5;
             color: #e7dbb5;
             margin-bottom: 27px;
         }
+    }
+
+    // .footer__social
+
+    &__social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    // .footer__social-box
+
+    &__social-box {
+        max-width: 140px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    // .footer__social-boxitem
+
+    &__social-boxitem {
+        svg {
+            max-width: 25px;
+            width: 100%;
+        }
+    }
+
+    // .footer__sicial-text
+
+    &__sicial-text {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        color: #e7dbb5;
     }
 }
 
