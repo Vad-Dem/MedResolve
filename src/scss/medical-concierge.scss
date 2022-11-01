@@ -114,14 +114,14 @@
 
     // .medical__down-line
 
-    &__down-line{
+    &__down-line {
         display: block;
         text-align: center;
     }
 
     // .medical__halfoval
-    
-    &__halfoval{
+
+    &__halfoval {
         position: absolute;
         top: 191px;
         z-index: 1;
@@ -133,8 +133,26 @@
 
     // .medical-form
 
-    &-form{
+    &-form {
         background-color: #fff;
+        margin-bottom: 270px;
+    }
+
+    // .medical__form-subtitle
+
+    &__form-subtitle {
+        font-family: "Inter";
+        font-style: italic;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 171%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        max-width: 895px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 115px;
     }
 }
 .container-header {
