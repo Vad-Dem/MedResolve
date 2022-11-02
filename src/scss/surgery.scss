@@ -245,3 +245,70 @@
 .container-text {
     position: relative;
 }
+
+
+// adaptive
+
+@media (max-width: 1130px) {
+    .surgery__halfoval-right{
+        display: none;
+    }
+    .surgery__halfoval-left{
+        display: none;
+    }
+}
+@media (max-width: 820px){
+    .surgery__start-bg{
+        display: none;
+    }
+    .surgery__text-img{
+        max-width: 63px;
+    }
+    .surgery__halfoval-right-big,
+    .surgery__halfoval-left-big{
+        display: none;
+    }
+}
+@media (max-width: 800px) {
+    .surgery__bottom-text{
+        padding-bottom: 137px;
+    }
+    .surgery__text-textbox-wrapper{
+        padding: 78px 5px 0px;
+    }
+    .surgery__text-intro{
+        span{
+            a{
+                text-decoration: underline;
+                border-bottom: none;
+            }
+        }
+    }
+    
+}
+@media (max-width: 600px){
+    .surgery__start-img-box{
+        transform: scale(1.15);
+        overflow: hidden;
+        margin-top: 154px;
+        margin-bottom: 80px;
+    }
+}
+@media (max-width: 500px) {
+    .surgery__topline{
+        display: none;
+    }
+    .surgery__text-list-item{
+        margin-bottom: 0;
+        margin-top: 20px;
+        &::after{
+            display: block;
+            position: static;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+}
+@media (max-width: 425px){
+    
+}
