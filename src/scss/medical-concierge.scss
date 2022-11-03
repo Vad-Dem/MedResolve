@@ -156,5 +156,98 @@
     }
 }
 .container-header {
-    
+}
+
+// adaptive
+
+@media (max-width: 1235px) {
+    .medical__start-box {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .medical__start-img {
+        margin-top: 0;
+    }
+    .medical__start-box {
+        background-image: none;
+    }
+    .medical__end-toptext {
+        margin-top: 0px;
+    }
+    .medical__start-img {
+        margin-bottom: 65px;
+    }
+    .medical__start-textblock {
+        margin: 0 auto;
+        margin-bottom: 110px;
+        background-image: url(../img/medical-bg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center 0;
+    }
+    .medical__textbox-title {
+        font-size: 30px;
+        line-height: 40px;
+        max-width: 214px;
+        width: 100%;
+        margin: 0 auto;
+        &::after {
+            position: static;
+            display: block;
+            margin: 10px 0px;
+        }
+    }
+    .medical__textbox-text {
+        font-size: 25px;
+        line-height: 38px;
+        max-width: 230px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .medical__textbox-text {
+    }
+    .medical__halfoval {
+        display: none;
+    }
+    .medical__end-toptext {
+        padding: 0px 10px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .medical__end-bottomtext{
+        padding: 0px 10px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .medical{
+        padding: 164px 0px 4px
+    }
+}
+@media (max-width: 750px){
+    .medical__form-subtitle{
+        font-size: 25px;
+    }
+}
+@media (max-width: 450px) {
+    .medical__start-textblock {
+        background-size: cover;
+    }
+    .form__form-input{
+        max-width: 90%;
+    }
+    .form__form-subtitle {
+        font-size: 20px;
+    }
+    .left-form-item{
+        margin-left: 10px;
+    }
+    .form__form-box{
+        flex-direction: column;
+    }
+    .form__form-box-input{
+        max-width: 90%;
+    }
+    .form__form-submit{
+        font-size: 20px;
+    }
 }
