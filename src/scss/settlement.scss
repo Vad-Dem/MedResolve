@@ -299,7 +299,7 @@
 
     // .settlement__case-list-title
 
-    &__case-list-title{
+    &__case-list-title {
         margin-bottom: 30px;
     }
 
@@ -344,13 +344,98 @@
 
     // .settlement__case-oval-left
 
-    &__case-oval-left{
+    &__case-oval-left {
         bottom: 26%;
     }
-    
+
     // .settlement__case-oval-right
-    
-    &__case-oval-right{
+
+    &__case-oval-right {
         bottom: -20px;
     }
+}
+
+// adaptive
+
+@media (max-width: 1145px) {
+    .settlement__start-box {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .settlement__img-oval {
+        display: none;
+    }
+    .settlement__start-textbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .settlement__img-box {
+        margin: 0 auto;
+        margin-top: 0;
+        margin-bottom: 55px;
+    }
+    .settlement__start {
+        background-image: none;
+    }
+    .settlement__start-title {
+        text-align: center;
+        font-size: 35px;
+        line-height: 52px;
+    }
+    .settlement__start-text {
+        text-align: center;
+    }
+    .settlement__about-box {
+        flex-direction: column;
+        border: none;
+    }
+    .settlement__about-boxitem{
+        border-right: none;
+        min-height: 0px;
+        padding: 74px 15px 40px;
+    }
+    .settlement__about-item-title{
+        font-size: 30px;
+    }
+    .settlement__about-item-text {
+        font-size: 20px;
+    }
+    .settlement__case-title{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .settlement__startline {
+        display: none;
+    }
+    .settlement__half-oval {
+        display: none;
+    }
+    .settlement__case-textbox{
+        padding: 74px 10px 38px;
+    }
+    .settlement__case-list{
+        font-size: 14px;
+    } 
+}
+@media (max-width: 700px){
+    .settlement__funding-textbox{
+        padding: 70px 20px 82px;
+    }
+    .settlement__downline{
+        display: none;
+    }
+    .settlement__about {
+        padding: 111px 0px 90px;
+    }
+}
+@media (max-width: 500px) {
+   
+}
+@media (max-width: 425px) {
 }
