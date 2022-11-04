@@ -354,7 +354,9 @@
         bottom: -20px;
     }
 }
-
+.header-visible {
+    display: block;
+}
 // adaptive
 
 @media (max-width: 1145px) {

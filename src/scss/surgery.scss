@@ -245,7 +245,9 @@
 .container-text {
     position: relative;
 }
-
+.header-visible {
+    display: block;
+}
 
 // adaptive
 
@@ -288,7 +290,6 @@
 }
 @media (max-width: 600px){
     .surgery__start-img-box{
-        transform: scale(1.15);
         overflow: hidden;
         margin-top: 154px;
         margin-bottom: 80px;

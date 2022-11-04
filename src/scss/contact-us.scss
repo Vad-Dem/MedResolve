@@ -227,7 +227,9 @@
 .container-contact {
     position: relative;
 }
-
+.header-visible {
+    display: block;
+}
 // adaptive
 
 @media (max-width: 1230px) {

@@ -4,10 +4,10 @@ import {select} from './select.js';
 import {charts} from './charts.js';
 import {menu} from './adaptive-header-menu.js';
 document.addEventListener("DOMContentLoaded", function () {
-  menuOne();
-  menuTwo();
-  select();
-  charts();
+  // menuOne();
+  // menuTwo();
+  // select();
+  // charts();
   menu();
   flsFunction.isWebp();
 });

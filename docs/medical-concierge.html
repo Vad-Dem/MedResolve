@@ -13,23 +13,12 @@
 </head>
 
 <body>
-  <header class="header mediacal-header">
-    <div class="header__inner mediacal-header-inner">
+  <header id="header" class="header">
+    <div class="header__inner">
       <div class="container-header">
-        <div class="header__line">
-          <svg width="690" height="1" viewBox="0 0 690 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line x1="4.37114e-08" y1="0.5" x2="690" y2="0.50006" stroke="url(#paint0_linear_44_313)" />
-            <defs>
-              <linearGradient id="paint0_linear_44_313" x1="690" y1="0.999805" x2="-8.58492" y2="37.5385"
-                gradientUnits="userSpaceOnUse">
-                <stop offset="0.196982" stop-color="#C29958" />
-                <stop offset="1" stop-color="#E8D58B" />
-              </linearGradient>
-            </defs>
-          </svg>
-        </div>
         <div class="header__box">
           <a href="#"><img class="header__logo" src="./img/header-logo.png" alt=""></a>
+          <img class="header__menu-img" src="./img/header__menu.png" alt="">
           <nav class="header__menu">
             <ul class="header__menu-list">
               <li class="header__menu-item menu-one">
@@ -39,10 +28,8 @@
                   </svg>
                 </a>
                 <ul class="header__droplist drop-one">
-                  <li class="header__droplist-item"><a class="menu-link" href="#">Personal Injury
-                      Plaintiffs</a></li>
-                  <li class="header__droplist-item"><a class="menu-link" href="#">Health Care
-                      Providers </a></li>
+                  <li class="header__droplist-item"><a class="menu-link" href="#">Personal Injury Plaintiffs</a></li>
+                  <li class="header__droplist-item"><a class="menu-link" href="#">Health Care Providers </a></li>
                 </ul>
               </li>
               <li>
@@ -55,21 +42,19 @@
                   </svg>
                 </a>
                 <ul class="header__droplist drop-two">
-                  <li class="header__droplist-item"><a class="menu-link" href="#">Surgery Funding</a>
-                  </li>
-                  <li class="header__droplist-item"><a class="menu-link" href="#">Medical Lien
-                      Funding</a></li>
+                  <li class="header__droplist-item"><a class="menu-link" href="#">Surgery Funding</a></li>
+                  <li class="header__droplist-item"><a class="menu-link" href="#">Medical Lien Funding</a></li>
                 </ul>
               </li>
-              <li class="header__menu-item">
-                <a class="header__menu-item active-header-menu" href="#">Medical Concierge <br />Service</a>
+              <li>
+                <a class="header__menu-item" href="#">Medical Concierge <br />Service</a>
               </li>
               <li class="header__menu-item">
                 <a class="header__menu-item" href="#">Contact us</a>
               </li>
             </ul>
           </nav>
-          <a href="#"><button class="header__btn">Get Cash Now</button></a>
+          <a class="header__btn" href="#">Get Cash Now</a>
         </div>
       </div>
     </div>
@@ -143,6 +128,7 @@
   </div>
   <footer class="footer">
     <div class="container-footer">
+      <a class="footer__adaptive-logo" href="#"><img src="./img/header-logo.png" alt=""></a>
       <div class="footer__inner">
         <div class="footer__start">
           <a class="footer__logo" href="#"><img src="./img/header-logo.png" alt=""></a>

@@ -157,7 +157,9 @@
 }
 .container-header {
 }
-
+.header-visible {
+    display: block;
+}
 // adaptive
 
 @media (max-width: 1235px) {
@@ -228,8 +230,9 @@
         font-size: 25px;
     }
     .medical__down-line{
-        max-width: 80%;
-        margin: 0 auto;
+        svg{
+            max-width: 305px;
+        }
     }
 }
 @media (max-width: 450px) {
@@ -254,4 +257,10 @@
     .form__form-submit{
         font-size: 20px;
     }
+    .medical__down-line{
+        svg{
+            max-width: 275px;
+        }
+    }
+    
 }
